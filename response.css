@@ -79,8 +79,51 @@ div.center {
 	overflow:hidden;
 }
 
-
 .image-row {
 	display: flex;
 	justify-content: space-around;
 }
+
+@media screen and (max-width: 960px){
+	
+	div.center {
+		background-color: #e67e22;
+		width: 100%;
+	}
+	div.right {
+		display:none;
+	}
+	div.left {
+		display:none;
+	}
+	.scalable-navbar ul{
+		height: auto;
+		position:fixed;
+		display: block;
+	}
+	div.navtab {
+		display:block;
+		width:100%;
+		text-align: center;
+		border: thin solid white;
+	}
+
+}
+
+@media screen and (min-width: 1400px){
+	div.center {
+		width: 960px;
+	}
+	.scalable-navbar {
+		width: 960px;
+	}
+}
+
+
+
+
+
+
+
+
+
