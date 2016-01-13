@@ -82,6 +82,7 @@ div.center {
 .image-row {
 	display: flex;
 	justify-content: space-around;
+	margin: 5%;
 }
 
 @media screen and (max-width: 960px){
@@ -106,6 +107,15 @@ div.center {
 		width:100%;
 		text-align: center;
 		border: thin solid white;
+	}
+
+	.image-row {
+		display: block;
+	}
+
+	.image-row img {
+		display: block;
+		margin: auto;
 	}
 
 }
